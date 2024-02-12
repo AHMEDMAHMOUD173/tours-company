@@ -1,0 +1,168 @@
+*{
+    padding: 2%;
+    margin: 0%;
+ } 
+
+ body {
+    background-image: url("../assists/tom-barrett-M0AWNxnLaMw-unsplash.jpg");
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1{
+    color: black;
+}
+.h2{
+    color: black;
+}
+.p{
+    color: black;
+}
+.h-color{
+    color: black;
+}
+.p-color{
+    color: black;
+}
+header {
+    font-size: x-large;
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: rgb(117, 120, 121);
+    padding: 0.5em;
+    text-align: center;
+    font-size: x-large;
+}
+
+nav a {
+    font-size: x-large;
+    color: #100c0c;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+section {
+    font-size: x-large;
+    padding: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.destination {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination-item {
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+   color: #fffcfc;
+    text-align: center;
+    padding: 2%;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+img{
+    border-radius: 50%;
+}
+
+.notify{
+
+    text-align: left;
+    color: black;
+    font-size: x-large;
+    font-weight: 900;
+    font-weight: bold;
+position: fixed;
+}
+input{
+    border-radius: 30px ;
+}
+form {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10%;
+    padding-left: 2em;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+}
+
+aside {
+    width: 350px;
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+    margin-right: 1em;
+
+}
+
+h2 {
+    color: #fffbfb;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #090000;
+}
+
+.f-bar {
+    width: 80%;
+    padding: 0.5em;
+    margin-right: 0em;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: rgb(196, 203, 203);
+    text-align: center;
+}
+
+ .bar-bottom {
+    background-color: #060000;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50px;
+}
+
+.aside-baar{
+width: auto;
+text-align: right;
+display: flex;
+justify-content: right;
+
+}
+
+.color-bar{
+    background-color: chartreuse;
+    color: black;
+}
